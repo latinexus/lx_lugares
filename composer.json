@@ -1,28 +1,25 @@
 {
-    "name": "latinexus/lugares",
-    "description": "Ordenamiento político de ciudades y provincias, donde Class:Pais es la de mayor nivel y de dicha clase, depende Class:Provincia, y sucesivamente, Class:Municipio y Class:Zona",
+    "name": "latinexus/lx_lugares",
+    "description": "Civil ordering of cities and provinces, where Class:Pais is the highest level and Class:Provincia depends on said class, and successively, Class:Municipio and Class:Zona",
     "type": "library",
     "require": {
         "illuminate/database": "^7.10.3"
     },
     "license": "MIT",
     "homepage": "https://latinex.us",
-    "keywords": ["places order", "map places"],
+    "keywords": ["geopolitical distribution","places order","map places"],
     "autoload": {
         "psr-4": {
-            "Lib\\Lugares\\": "src/"
+            "latinexus\\Lugares\\": "src/"
         }
     },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/latinexus/lugares"
-        },
-        {
-            "type": "path",
-            "url": "I:/www/lx_github"
         }
     ],
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Eric larrea",
