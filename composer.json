@@ -16,7 +16,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/latinexus/lugares"
+            "url": "https://github.com/latinexus/lx_lugares.git"
         }
     ],
     "minimum-stability": "stable",
