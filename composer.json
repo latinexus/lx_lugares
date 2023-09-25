@@ -10,7 +10,7 @@
     "keywords": ["geopolitical distribution","places order","map places"],
     "autoload": {
         "psr-4": {
-            "latinexus\\Lugares\\": "src/"
+            "Latinexus\\Lugares\\": "src/"
         }
     },
     "repositories": [
