@@ -3,7 +3,7 @@
     "description": "Civil ordering of cities and provinces, where Class:Pais is the highest level and Class:Provincia depends on said class, and successively, Class:Municipio and Class:Zona",
     "type": "library",
     "require": {
-        "illuminate/database": "^8.83.27"
+        "illuminate/database": ">=8.83.27"
     },
     "license": "MIT",
     "homepage": "https://latinex.us",
